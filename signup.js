@@ -50,8 +50,8 @@ function validateForm() {
 }
 function checkPasswordStrength() {
     const password = document.getElementById("password").value;
-    const passwordStrength = document.getElementById("password-strength");
-    const progressBar = passwordStrength.querySelector(".progress-bar");
+    const passwordStrength = document.getElementById("password-strength").value;
+    const progressBar = passwordStrength.querySelector(".progress-bar").value;
 
     // Calculate password strength score (0 to 4)
     let strength = 0;
