@@ -35,7 +35,7 @@ function validateForm() {
     }
 
     // Check if password and confirm password match
-    if (password !== confirmPassword) {
+    if (password != confirmPassword) {
         alert('Passwords do not match');
         return false;
     }
