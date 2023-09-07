@@ -1,0 +1,85 @@
+/* Apply some basic styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+        background-image: url('./Images/kettuvallam.jpg');
+        background-size: cover; /* Adjust image size as needed */
+        background-repeat: no-repeat; /* Prevent image from repeating */
+    
+}
+
+/* Style the container holding the form */
+form {
+    background-color: #b3dbf1;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the form header (Sign Up) */
+h1 {
+    color: #333;
+}
+
+/* Style form labels */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Style form input fields */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Add some spacing between form elements */
+br {
+    display: block;
+    margin: 10px 0;
+}
+
+.navbar{
+    background-color: white;
+}
+/* password strength progress bar*/
+.bg-danger {
+    background-color: red !important;
+}
+.bg-warning {
+    background-color: orange !important;
+}
+.bg-success {
+    background-color: green !important;
+}
